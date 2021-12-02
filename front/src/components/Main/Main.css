@@ -1,0 +1,53 @@
+.main-block {
+    display: flex;
+}
+
+.main-block fieldset legend {
+    user-select: none;
+}
+
+.main-block fieldset {
+    border-radius: 3px  ;
+}
+
+.online-users {
+    width: 20%;
+    border: 2px solid black;
+}
+
+.online-users span {
+    display: block;
+    text-align: left;
+    margin: 5px;
+}
+
+.chat-room {
+    border: 2px solid black;
+}
+
+.chat-room span {
+    display: block;
+    text-align: left;
+    margin: 5px;
+}
+
+.chat-room-container {
+    width: 100%;
+}
+
+.chat-room-container form {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 3px 0px 3px;
+}
+
+.chat-room-container form input {
+    width: 89%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.chat-room-container form button {
+    width: 10%;
+    font-size: 20px;
+}
